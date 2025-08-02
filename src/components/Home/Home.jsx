@@ -67,7 +67,7 @@ function Home() {
             </a>
 
             <a
-              href="src\assets\Shubham Tanawade Resume FS.pdf" // Make sure this file exists in your public/assets
+              href={Image.cvfile} // Make sure this file exists in your public/assets
               download
               className="px-6 py-3 rounded-md border border-orange-700 text-orange-700 font-semibold hover:text-white hover:bg-orange-700 transition-colors duration-200 text-center"
             >
