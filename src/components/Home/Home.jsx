@@ -3,6 +3,17 @@ import { Link } from "react-router-dom";
 import Image from '../asset';
 
 function Home() {
+
+  const reactImage = Image.reactImage;
+  const gitImage = Image.gitImage;    
+  const tailwindImage = Image.tailwindImage;
+  const vercelImage = Image.vercelImage;
+  const nodeImage = Image.nodeImage;
+  const dotnetImage = Image.dotnetImage;
+  const azureImage = Image.azureImage;
+  const mysqlImage = Image.mysqlImage;
+  const redisImage = Image.redisImage;
+  
   return (
     <div className="relative bg-white w-full max-w-7xl mx-auto ">
       <aside className="relative flex flex-col-reverse sm:flex-row items-center sm:justify-between px-4 py-20 sm:px-12">
@@ -17,18 +28,21 @@ function Home() {
 
           {/* Tech Logos */}
           <div className="flex flex-wrap justify-center sm:justify-start gap-4 mt-8">
-            {[
-              { name: "React", src: "src/assets/React-icon.svg.png" },
-              { name: "Git", src: "src/assets/Git-logo.svg.png" },
-              { name: "Tailwind", src: "src/assets/Tailwind_CSS_Logo.svg.png" },
-              { name: "Vercel", src: "src/assets/Vercel_logo_2025.svg.png" },
-              { name: "Node.js", src: "src/assets/nodejs-logo.svg" },
-              { name: ".NET", src: "src/assets/download.png" },
-              { name: "Azure", src: "src/assets/azure-1.svg" },
-              { name: "MySQL", src: "src/assets/logo-mysql-170x115.png" },
+            {
+             
+            
+            [
+              { name: "React", src: reactImage },
+              { name: "Git", src: gitImage },
+              { name: "Tailwind", src: tailwindImage },
+              { name: "Vercel", src: vercelImage },
+              { name: "Node.js", src: nodeImage },
+              { name: ".NET", src: dotnetImage },
+              { name: "Azure", src: azureImage },
+              { name: "MySQL", src: mysqlImage },
               {
                 name: "Redis",
-                src: "src/assets/130-1307069_redis-logo-image-sizes-redis-db.png",
+                src: redisImage,
               },
             ].map((tech) => (
               <div
