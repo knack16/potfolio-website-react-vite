@@ -1,4 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
+import logoImage from '../asset'
 
 function Header() {
   return (
@@ -9,7 +10,7 @@ function Header() {
           {/* Logo - centered on mobile */}
           <Link to="/" className="flex justify-center mb-2 lg:mb-0 lg:justify-start">
             <img
-              src="src/assets/imageLogo.png"
+              src={logoImage}
               className="h-12"
               alt="Logo"
             />
