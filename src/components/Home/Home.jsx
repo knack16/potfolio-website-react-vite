@@ -59,12 +59,12 @@ function Home() {
             ))}
           </div>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center sm:justify-start">
-            <a
-              href="/contactUs" // Replace with "#contact" or "mailto:..." as needed
+            <Link
+              to="/contactUs" // Replace with "#contact" or "mailto:..." as needed
               className="px-6 py-3 rounded-md bg-orange-700 text-white font-semibold shadow-md hover:bg-orange-900 transition-colors duration-200 text-center"
             >
               Get in Touch
-            </a>
+            </Link>
 
             <a
               href={Image.cvfile} // Make sure this file exists in your public/assets
