@@ -55,17 +55,17 @@ function About() {
           <h3 className="text-2xl font-bold mb-6 text-center">My Tech Stack</h3>
           <div className="flex flex-wrap justify-center gap-4">
             {[
-               { name: "React", src: "/assets/React-icon.svg.png" },
-              { name: "Git", src: "/assets/Git-logo.svg.png" },
-              { name: "Tailwind", src: "/assets/Tailwind_CSS_Logo.svg.png" },
-              { name: "Vercel", src: "/assets/Vercel_logo_2025.svg.png" },
-              { name: "Node.js", src: "/assets/nodejs-logo.svg" },
-              { name: ".NET", src: "/assets/download.png" },
-              { name: "Azure", src: "/assets/azure-1.svg" },
-              { name: "MySQL", src: "/assets/logo-mysql-170x115.png" },
+               { name: "React", src: "src/assets/React-icon.svg.png" },
+              { name: "Git", src: "src/assets/Git-logo.svg.png" },
+              { name: "Tailwind", src: "src/assets/Tailwind_CSS_Logo.svg.png" },
+              { name: "Vercel", src: "src/assets/Vercel_logo_2025.svg.png" },
+              { name: "Node.js", src: "src/assets/nodejs-logo.svg" },
+              { name: ".NET", src: "src/assets/download.png" },
+              { name: "Azure", src: "src/assets/azure-1.svg" },
+              { name: "MySQL", src: "src/assets/logo-mysql-170x115.png" },
               {
                 name: "Redis",
-                src: "/assets/130-1307069_redis-logo-image-sizes-redis-db.png",
+                src: "src/assets/130-1307069_redis-logo-image-sizes-redis-db.png",
               },
             ].map((tech) => (
               <div

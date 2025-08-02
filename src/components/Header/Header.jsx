@@ -1,7 +1,8 @@
 import { Link, NavLink } from "react-router-dom";
-import logoImage from '../assets/imageLogo.png';
+import Image from '../asset';
 
 function Header() {
+  console.log(Image.logoImage)
   return (
     <header className="shadow sticky z-50 top-0">
       <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
@@ -10,7 +11,7 @@ function Header() {
           {/* Logo - centered on mobile */}
           <Link to="/" className="flex justify-center mb-2 lg:mb-0 lg:justify-start">
             <img
-              src={logoImage}
+              src={Image.logoImage}
               className="h-12"
               alt="Logo"
             />

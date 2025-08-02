@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Image from '../asset';
 
 function Home() {
   return (
@@ -67,7 +68,7 @@ function Home() {
           <div className="absolute -inset-6 bg-gradient-to-tr from-orange-300 via-orange-400 to-orange-500 rounded-full blur-3xl opacity-70 animate-pulse"></div>
 
           <img
-            src="src/assets/profileImage.png"
+            src={Image.profilePhoto}
             alt="Profile"
             className="relative z-10 rounded-full object-cover w-full h-full shadow-xl border-4 border-white"
           />
